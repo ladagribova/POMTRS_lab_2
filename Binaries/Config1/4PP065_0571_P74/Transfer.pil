@@ -1,0 +1,20 @@
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0", "/RT=1000 /AM=*"
+Diagnose
+DeleteMemory ROM
+Coldstart
+Download: ".\System\PP065D42.BR", "ROM"
+Coldstart
+Download: ".\ashwd.br", "SYSROM"
+Download: ".\asfw.br", "SYSROM"
+Download: ".\arconfig.br", "SYSROM"
+Download: ".\sysconf.br", "SYSROM"
+Warmstart
+Download: ".\AsIOTime.br", "ROM"
+Download: ".\CtrlLib.br", "ROM"
+Download: ".\ashwac.br", "ROM"
+Download: ".\iomap.br", "ROM"
+Download: ".\Role.br", "ROM"
+Download: ".\TCData.br", "SYSROM"
+Download: ".\udbdef.br", "ROM"
+Download: ".\User.br", "ROM"
+Download: ".\SimAperiod.br", "ROM"

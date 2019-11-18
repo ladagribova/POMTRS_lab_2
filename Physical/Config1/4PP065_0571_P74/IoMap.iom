@@ -1,0 +1,15 @@
+VAR_CONFIG
+	::GateControl.X64Ctrl.Mapping.ETAD_Input AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
+	::GateControl.X64Ctrl.Mapping.CMDD_Output AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
+	::GateControl.X64Ctrl.Mapping.RFRD_Input AT %IW."8I64xxxxxxx.00x-1".RFRD_Input;
+	::GateControl.X64Ctrl.Mapping.LFRD_Output AT %QW."8I64xxxxxxx.00x-1".LFRD_Output;
+	::GateControl.Mapping.DirectionSwitch AT %IX."X20DI9371".DigitalInput01;
+	::GateControl.Mapping.SensorOpen AT %IX."X20DI9371".DigitalInput02;
+	::GateControl.Mapping.SensorNearlyOpen AT %IX."X20DI9371".DigitalInput03;
+	::GateControl.Mapping.SensorNearlyClose AT %IX."X20DI9371".DigitalInput04;
+	::GateControl.Mapping.SensorClose AT %IX."X20DI9371".DigitalInput05;
+	::GateControl.Leds.Mapping.Led1 AT %QX."X20DO9322".DigitalOutput02;
+	::GateControl.Leds.Mapping.Led2 AT %QX."X20DO9322".DigitalOutput03;
+	::GateControl.Leds.Mapping.Led3 AT %QX."X20DO9322".DigitalOutput04;
+	::GateControl.Leds.Mapping.Led4 AT %QX."X20DO9322".DigitalOutput05;
+END_VAR

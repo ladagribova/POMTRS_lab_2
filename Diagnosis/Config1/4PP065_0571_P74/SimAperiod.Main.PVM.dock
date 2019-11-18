@@ -1,0 +1,37 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SimAperiod 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                             GateControl                            FBGateControl    0 "                                                               *"    0   24    1    0    0    1         
+                                    Init                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Leds                                FBGateLed    0 "                                                               *"    1   24    1    0    0    1         
+                                    Init                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                LedState                                     DINT    0 "                                                               1"    2    4    1   10    0    0 e,0,GATE
+
+                                 Mapping                               TGatesLeds    0 "                                                               *"    2   24    1    0    0    1         
+                                    Led1                                     BOOL    3 "                                                           FALSE"    3    1    1    2    0    0         
+                                    Led2                                     BOOL    3 "                                                           FALSE"    3    1    1    2    0    0         
+                                    Led3                                     BOOL    3 "                                                           FALSE"    3    1    1    2    0    0         
+                                    Led4                                     BOOL    3 "                                                           FALSE"    3    1    1    2    0    0         
+                           TimestampPrev                                     DINT    0 "                                                               0"    2    4    1   10    0    0         
+                               Timestamp                                     DINT    0 "                                                       747005087"    2    4    1   10    0    0         
+                                 X64Ctrl                                FBX64Ctrl    0 "                                                               *"    1   24    1    0    0    1         
+                                 Control                              TX64Control    0 "                                                               *"    2   24    1    0    0    1         
+                                    Init                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                ActSpeed                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                SetSpeed                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 Mapping                              TX64Mapping    0 "                                                               *"    2   24    1    0    0    1         
+                              RFRD_Input                                      INT    1 "                                                               0"    3    3    1   10    0    0         
+                             LFRD_Output                                      INT    3 "                                                               0"    3    3    1   10    0    0         
+                             CMDD_Output                                     UINT    3 "                                                              15"    3    6    1   10    0    0         
+                              ETAD_Input                                     UINT    1 "                                                            1575"    3    6    1   10    0    0         
+                                   State                                     DINT    0 "                                                              39"    2    4    1   10    0    0 e,0,STAT
+
+                                   State                                     DINT    0 "                                                               1"    1    4    1   10    0    0 e,0,ST_U
+
+                                 Mapping                             TGateMapping    0 "                                                               *"    1   24    1    0    0    1         
+                         DirectionSwitch                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              SensorOpen                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                        SensorNearlyOpen                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                       SensorNearlyClose                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             SensorClose                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         

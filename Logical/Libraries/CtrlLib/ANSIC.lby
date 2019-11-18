@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.10.53 SP?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">CtrlLib.fun</File>
+    <File>FBApertiodic.c</File>
+    <File>FBX64Ctrl.c</File>
+    <File>FBGateControl.c</File>
+    <File>FBGateLed.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsIOTime" />
+  </Dependencies>
+</Library>

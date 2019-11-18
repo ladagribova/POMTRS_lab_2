@@ -1,0 +1,3 @@
+VAR
+	GateControl : FBGateControl;
+END_VAR
